@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="contanner">
+	<form method="post" id="login" onsubmit="return validateLogin();">
+		<h1>Welcome</h1>
+		<label id="usernameLabel" class="hide"></label> 
+		<input type="text" name="username" id="username" placeholder="Type Username" class="login" onkeypress="showUser();">
+		<label id="passwordLabel" class="hide"></label> 
+		<input type="password" name="password" placeholder="Type Password" id="password" class="login" onkeypress="showPass();">
+		<input type="submit" id="submit">
+		<label id="message" class="hide"></label>
+	</form>
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
